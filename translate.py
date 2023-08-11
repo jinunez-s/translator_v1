@@ -14,7 +14,7 @@ translator = Translator()
 # pip3 install googletrans==3.1.0a0
 
 #translate a spanish text to arabic for instance
-translation = translator.translate("Hola mundo", dest="ar")
+translation = translator.translate("Hola mundo", dest="en")
 print(f"{translation.origin} ({translation.src}) --> {translation.text} ({translation.dest})")
 
 #translate more than phrase
@@ -25,6 +25,6 @@ sentences = [
     "Good bye!"
 ]
 
-translations = translator.translate(sentences, dest="tr")
+translations = translator.translate(sentences, dest="en")
 for translation in translations:
     print(f"{translation.origin} ({translation.src}) --> {translation.text} ({translation.dest})")
