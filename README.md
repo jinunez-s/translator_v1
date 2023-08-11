@@ -2,4 +2,4 @@
 Python application that translate text <br>
 Libraries <br>
 <ul> googletrans (3.1.0a0) <br>
-<ul> pprint </ul>
+<ul> pprint
